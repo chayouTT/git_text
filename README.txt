@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Homework2 {
     public static void main(String[] args) {
-        System.out.println("====================\n欢迎使用密码加密系统\n====================\n请选择操作：\n1：加密\n2：解密\n3：退出");
+        System.out.println("-====================\n欢迎使用密码加密系统\n====================\n请选择操作：\n1：加密\n2：解密\n3：退出");
         System.out.println("请输入选择序号：");
         Scanner input1 = new Scanner(System.in);
         int a = input1.nextInt();
